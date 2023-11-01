@@ -1,8 +1,9 @@
 from kivy.app import App
-from kivy.uix.boxlayout import BoxLayout
+
+from Custom_Layouts import BgBoxLayout
 
 
-class Interface(BoxLayout):
+class Interface(BgBoxLayout):
     pass
 
 
